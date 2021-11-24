@@ -1,0 +1,36 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "Advent of Code 2021 code",
+  "main": "dist/index.js",
+  "scripts": {
+    "execute": "ts-node",
+    "format": "prettier --config .prettierrc ./src/*.ts --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoryPotter/advent-of-code-2021.git"
+  },
+  "keywords": [
+    "advent-of-code",
+    "typescript",
+    "node"
+  ],
+  "author": "Rory Potter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoryPotter/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/RoryPotter/advent-of-code-2021#readme",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
